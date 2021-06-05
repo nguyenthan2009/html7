@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 7</title>
+    <style>
+        .like{
+            background-color: red;
+            color:white;
+            text-align: center;
+            width: 60%;
+        }
+        .clor {
+            color:blue;
+            display: inline-block;
+            width: 70px;
+        }
+        .favorit{
+            color: darkorange;
+        }
+        .mike{
+            padding-left: 73px;
+        }
+        .submit{
+            color: blue;
+            background-color: aquamarine;
+            width: 100%;
+        }
+        .strong{
+            height: 100px;
+            width: 200px;
+        }
+        .form{
+            background-color: darkkhaki;
+            width: 60%;
+        }
+
+
+    </style>
+</head>
+<body>
+<form action="lession7.html" method="GET">
+   <H1 CLASS="like"> SỞ THÍCH CỦA BẠN  </H1>
+    <label class="clor"> Họ và Tên      </label>
+    <input type="text"/>
+
+    <br>
+   <label class="clor"> Email  </label>
+    <input type="text"/>
+
+    <br>
+    <br>
+
+    <label class="clor">Sở thích</label>
+
+    <label class="favorit"><input type="checkbox"/> Thể thao </label>
+    <label class="favorit"><input type="checkbox"/> Âm nhạc </label>
+    <label class="favorit"><input type="checkbox"/> Đọc sách </label>
+
+    <div class="mike">
+    <label class="favorit"><input type="checkbox"/> Lướt web</label>
+    <label class="favorit"><input type="checkbox"/> Chơi game </label>
+    <label class="favorit"><input type="checkbox"/> Điện ảnh </label>
+    </div>
+    <div class="mike">
+        <label class="favorit"><input type="checkbox"/> Du lịch </label>
+    </div>
+    <div class="mike">
+        <input type="submit" value="Gửi thông tin"/>
+        <input type="submit" value="Nhập lại"/>
+    </div>
+
+</form>
+<br>
+<br>
+
+<form action="lession7.html" method="GET" class="form">
+    <h1 class="submit">ĐĂNG KÍ HỌC VIÊN</h1>
+    <label class="clor"> Họ và Tên      </label>
+    <input type="text"/>
+
+    <br>
+    <label class="clor"> Ngày sinh  </label>
+    <input type="text"/>
+    <br>
+    <br>
+    <label class="clor"> Giới tính</label>
+    <input type="radio" value="nam"/> Nam
+    <input type="radio" value="nữ"/> Nữ
+    <br>
+    <br>
+    <label class="clor"> Địa chỉ</label>
+    <input type="text" class="strong"/>
+    <br>
+    <br>
+    <label class="clor"> Lớp</label>
+    <select name="city">
+        <option value="HN">-Chọn lớp</option>
+        <option value="HP">CO5</option>
+        <option value="HU">C06</option>
+    </select>
+    <br>
+    <br>
+    <label class="clor"> Email      </label>
+    <input type="text"/>
+
+    <br>
+    <label class="clor"> Số đthoại  </label>
+    <input type="text"/>
+    <div class="mike">
+        <input type="submit" value="Gửi thông tin"/>
+        <input type="submit" value="Nhập lại"/>
+    </div>
+
+
+
+
+</form>
+
+
+
+</body>
+</html>
